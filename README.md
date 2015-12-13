@@ -22,10 +22,15 @@ With go-lang already installed:
 $ brew install libgit2
 $ go get gopkg.in/libgit2/git2go.v22
 $ go get github.com/plouc/go-gitlab-client
+$ go get github.com/codegangsta/cli
 $ make build
 ~~~
 
 Finally, move `build/git-lab` somewhere in $PATH.
+
+### Archlinux
+
+There is an aur package called git-gitlab.
 
 ## Configure
 
